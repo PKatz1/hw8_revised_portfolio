@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+    margin: 10px;
     padding:0;
 
 }
@@ -14,9 +14,8 @@ ul li{
     line-height:100px;
 }
 ul li a {
-
 text-decoration:none;
-font-size: 20 px;
+font-size: 30 px;
 font-family: arial;
 color:black;
 padding: 0 50px;
@@ -24,7 +23,7 @@ font-family: 'Dela Gothic One', cursive;
 }
 
 body{
-    background-color:black;
+    background-color:lightblue;
 }
 nav{
     width:100%;
@@ -36,5 +35,8 @@ footer{
     display:inline-block;
     text-align:center;
    
+}
+h1{
+    text-align:center;
 }
 
