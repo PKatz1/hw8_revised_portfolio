@@ -1,134 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 *{
-    box-sizing:border-box;
-    padding: 0;
     margin: 0;
+    padding:0;
+
+}
+ul{
+
 }
 
-:root{
-    --primary-color: blue;
-    --secondary-color:white;
+ul li{
+    list-style:none;
+    display:inline-block;
+    line-height:100px;
+}
+ul li a {
+
+text-decoration:none;
+font-size: 20 px;
+font-family: arial;
+color:black;
+padding: 0 50px;
+font-family: 'Dela Gothic One', cursive;
 }
 
 body{
-    font-family: 'Share tech Mono', monospace;
-    /* color:var(--secondary-color); */
-    line-height: 1.6;
+    background-color:black;
 }
-
-ul{
-    list-style-type: none;
-}
-
-a{
-    text-decoration:none;
-    color:var(--secondary-color);
-} 
-
-h1{
-    font-weight: 30;
-    font-style:italic;
-    line-height: 2;
-    font-size:40px;
-    margin: 10px 0;
-}
-
-p{
-    margin: 10px 0;
-    color:var(--primary-color)
-}
-
-img{
-    float:left;
-    margin:4px;
-}
-
-/*navbar styling*/
-.navbar {
-    background-color:var(--primary-color);
-    color:var(--secondary-color);
+nav{
+    width:100%;
     height: 100px;
-}
-.navbar .flex{
-    justify-content: space-between;
+    background-color:lightblue;
 }
 
-.navbar ul{
-    display:flex;
-    justify-content: space-between;
-    font-size: 24px;
-} 
-.navbar a{
-    display:flex;
-    justify-content: space-evenly;
-    color:var(--secondary-color);
-    padding:   15px;
-    margin:auto 0 10 px;
-}
-
-.navbar a:hover{
-    border-bottom:2px var(--secondary-color) solid;
-}
-
-/*utlities*/
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
-}
-
-.flex {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    height:100%;
-}
-
-h2,h3,h4,h5{
-margin-top: 10px;
-color:blue;
-font-size: 30px;
-margin-left:20px;
-}
-
-p{
-max-width:1100px;
-margin:20px;
-font-size: 20px;
-font-weight: bolder;
-color: blue;
-text-align:justify;
-}
-
-.work{
-    margin-top:120px
-}
-
-.email a{
-    color:blue;
-
-}
 footer{
+    display:inline-block;
     text-align:center;
-    color:blue;
-    font-size: 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding:40px;
-} 
+   
+}
 
-@media screen and (max-width: 700px){
-    .container{
-        max-width: 600px;
-        margin: 0 auto;
-        overflow: auto;
-        padding: 0 40px;
-    }
-    .container flex{
-        justify-content: space-between;
-        flex-direction:column;
-}
-}
