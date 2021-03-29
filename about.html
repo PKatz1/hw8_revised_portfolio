@@ -89,21 +89,54 @@
              <div class="panel-body"> Although it is not comming easy to me after having focused on the law for over twenty years and being probably double the age of the average coding class student, I am slowly learning to code using HTML, CSS, JavaScript, JQuery, and Node.js</div>
          </div>
      </div>
-    </div>
+     <section class="contact">
+        <span id="cm">
+            <div class="row" id="signuprow">
+                <h2 class="signuptext">
+                    <center>Do You Want to Contact Me?</center>
+                </h2>
+                <h3 class="signuptext">
+                    <center>Submit Your Info Below:</center>
+                </h3>
+                <!-- modify this form HTML and place wherever you want your form -->
+            </div>
 
+            <div class="row" id="signuprow">
+                <!-- modify this form HTML and place wherever you want your form -->
+                <center>
+                    <form action="https://formspree.io/f/mlearwvb" method="POST">
+                        <label>
+                            <input type="email" name="Reply Email Address" placeholder="Your email">
+                        </label>
+                        <label>
+                            <input type="name" name="Applicant Name" placeholder="Your name">
+                            <!-- Your message:
+      <textarea name="message"></textarea> -->
+                        </label>
+                        <label>
+                            <input type="telephone" name="telephone" id="telephone" placeholder="Your Phone Number">
+                            <!-- your other form fields go here -->
+                        </label>
 
+                        <button type="submit" class="btn btn-danger">Send</button>
+                        <input type="hidden" name="_subject" value="A Membership Application Request" />
+                    </form>
+                </center>
+            </div>
 
-
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-        crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+                integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+                crossorigin="anonymous"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+                crossorigin="anonymous"></script>
+</div>
 </body>
+<footer>
+(c) 2021 Philip Katz Made with HTML, CSS & Bootstrap
+
+</footer>
 
 </html>
